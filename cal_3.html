@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="cal_1.js"></script>
+</head>
+<body>
+    
+        <table>
+    <td><input type="text" id="Number_1" placeholder="First Number"/></td>
+    <td>
+        <select id="calculating" onchange="cal_1()">
+            <option disabled="disabled" selected="selected"></option>
+            <option value="sum">+</option>
+            <option value="sub">-</option>
+            <option value="multi">*</option>
+            <option value="divide">/</option>
+        </select>
+    </td>
+    <td><input type="text" id="Number_2" placeholder="Second Number"/></td>
+    <td><label>Result</label></td>
+    <td><input type="text" id="result" placeholder="Result"/></td>
+</table>
+<br><br>
+<td><input type="text" id="Num_1" placeholder="First Number"/></td>
+<td><input type="text" id="Num_2" placeholder="Second Number"/></td>
+<td><label>Result</label></td>
+<td><input type="text" id="result_1" placeholder="Result"/></td>
+
+<br>
+<input type="radio" value="sum_1"  id="calculating_1" onclick="cal()">
+<label for="sum" >addition</label>
+<input type="radio" value="sub_1" id="calculating_2" onclick="cal_2()">
+<label for="sub" >subtraction</label>
+<input type="radio" value="multi_1" id="calculating_3" onclick="cal_3()">
+<label for="multi" >Multiplication</label>
+<input type="radio" value="divide_1" id="calculating_4" onclick="cal_4()">
+<label for="division" >Division</label>
+<p> So the "radio" buttons work even after they were clicked, <br> you can re-click the same button or another one and they will.  </p>
+<hr><hr>
+<td>
+<button type="button" id="down_1" onclick="down()"><span>&#8595;</span></button> 
+<input type="text" id="Num1" placeholder="First Number"/></td>
+<button type="button" id="down"><span>&#8593;</span></button></td>
+<td>
+<select id="calculating" onchange="cal_1()">
+<option disabled="disabled" selected="selected"></option>
+<option value="sum">+</option>
+<option value="sub">-</option>
+<option value="multi">*</option>
+<option value="divide">/</option>
+</select>
+</td>
+<button type="button" id="down" onclick="down()"><span>&#8595;</span></button>
+<td><input type="text" id="Num2" placeholder="Second Number"/>
+<button type="button" id="down_2"><span>&#8593;</span></button></td>
+<td><label>Result</label></td>
+<td><input type="text" id="resul1" placeholder="Result"/></td>
+
+</body>
+</html>
